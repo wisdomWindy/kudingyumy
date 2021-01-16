@@ -2,6 +2,7 @@
 @import "../../templates/tip/tip.wxss";
 @import "../../templates/more/more.wxss";
 @import "../../templates/course/course.wxss";
+@import "../../templates/video/video.wxss";
 .container{
   margin:0;
   padding:0;
@@ -22,10 +23,16 @@ swiper swiper-item image{
   margin-top:5px;
   margin-bottom:5px;
 }
-.curses-list{
-  width:100%;
+scroll-view{
+white-space: nowrap;
+  width:750rpx;
+}
+.recommendVideo{
+  margin-left:20rpx;
+}
+.recommendVideo .video-list{
   display: flex;
-  justify-content: space-around;
+  align-items: center;
 }
 .color-blue{
   background-color:skyblue;

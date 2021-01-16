@@ -1,0 +1,51 @@
+/* pages/bindMobile/bindMobile.wxss */
+.mobile-container{
+background-color:#eee;
+height:100vh;
+display: flow-root;
+}
+.mobile-container .phone{
+  margin-top:80rpx;
+}
+.mobile-container .phone input{
+  background-color:#fff;
+  height:100rpx;
+  width:700rpx;
+  margin:0 auto 40rpx;
+  border-radius:100rpx;
+  padding-left:20rpx;
+}
+.mobile-container .checkcode{
+  position: relative;
+}
+.mobile-container .checkcode input{
+  background-color:#fff;
+  padding-left:20rpx;
+  height:100rpx;
+  width:700rpx;
+  margin:0 auto 20rpx;
+  border-radius:100rpx;
+
+}
+.mobile-container .checkcode .link{
+  position:absolute;
+  right:50rpx;
+  top:50%;
+  transform:translateY(-50%);
+  color:#999;
+  font-size:12px;
+}
+.mobile-container .tip{
+  font-size:12px;
+  color:#999;
+  text-align:center;  
+  margin:20rpx auto;
+}
+.mobile-container .submit{
+    background-color:#f94388;
+    border-radius:50rpx;
+    position: absolute;
+    left:50%;
+    bottom:100rpx;
+    transform:translateX(-50%);
+}

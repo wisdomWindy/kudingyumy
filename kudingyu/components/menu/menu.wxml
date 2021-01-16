@@ -1,0 +1,9 @@
+<!--components/menu/menu.wxml-->
+<view class="menu-container" bindtap="navigateTo" data-id="{{item.id}}">
+  <view class="title">
+    <text>{{item.title}}</text>
+  </view>
+  <view class="icon">
+    <image src="../../assets{{item.img_url}}" mode="cover"></image>
+  </view>
+</view>

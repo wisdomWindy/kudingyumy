@@ -2,8 +2,9 @@
   display:flex;
   justify-items: center;
 }
-image{
-  width:
+.more-container image{
+  width:40rpx;
+  height:40rpx;
 }
 .more-container text{
   font-size:12px;

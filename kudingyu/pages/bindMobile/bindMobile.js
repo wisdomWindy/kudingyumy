@@ -1,12 +1,11 @@
-// pages/mine/mine.js
-import settings from "../../datas/settings.js";
+// pages/bindMobile/bindMobile.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-settings
+
   },
 
   /**

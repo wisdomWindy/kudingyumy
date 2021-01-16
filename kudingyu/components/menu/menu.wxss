@@ -1,0 +1,12 @@
+/* components/menu/menu.wxss */
+.menu-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 20rpx;
+  height:100rpx;
+}
+.menu-container .icon image{
+  width:60rpx;
+  height:60rpx;
+}

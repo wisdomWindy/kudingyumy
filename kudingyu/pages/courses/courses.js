@@ -1,11 +1,12 @@
 // pages/courses/courses.js
+import courses from "../../datas/courses";
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    courses
   },
 
   /**

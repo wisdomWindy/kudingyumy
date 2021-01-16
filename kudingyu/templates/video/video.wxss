@@ -1,0 +1,16 @@
+.video-container{
+  margin-left:20rpx;
+  display: inline-block;
+  width:auto;
+}
+.video-container image{
+ width:342rpx;
+ height:222rpx;
+}
+.video-container .title{
+  font-size:12px;
+}
+.video-container .videocount{
+font-size:10px;
+color:#999;
+}

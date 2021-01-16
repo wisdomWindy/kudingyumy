@@ -1,6 +1,7 @@
 // pages/home/home.js
 import swipers from "../../datas/swipers.js";
-import courses from "../../datas/courses.js"
+import courses from "../../datas/courses.js";
+import videos from "../../datas/videos.js";
 Page({
 
   /**
@@ -9,6 +10,7 @@ Page({
   data: {
     swipers,
     courses,
+    videos,
     hotCurses:{
       content:"热门课堂",
       img_url:"../../assets/images/hot.png"
@@ -19,7 +21,7 @@ Page({
     },
     more:{
       content:"更多",
-      img_url:"../../assets/images/right-arrow.png"
+      img_url:"../../assets/images/列表箭头.png"
     }
   },
 

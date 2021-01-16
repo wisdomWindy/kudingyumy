@@ -1,0 +1,7 @@
+<template name="video">
+  <view class="video-container">
+    <image src="../../assets{{img_url}}" mode="cover"></image>
+    <view class="title"><text>{{title}}</text></view>
+    <view class="videocount"><text>{{viewcount}}次人观看</text></view>
+  </view>
+</template>

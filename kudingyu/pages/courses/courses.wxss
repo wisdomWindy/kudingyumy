@@ -1,1 +1,7 @@
 /* pages/courses/courses.wxss */
+
+.courses-container{
+  height:100%;
+  background-color:#eee;
+  padding-top:20rpx;
+}
