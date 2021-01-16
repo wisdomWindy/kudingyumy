@@ -1,0 +1,7 @@
+<template name="more">
+  <view class="more-container">
+    <text>{{content}}</text>
+  <image src="{{img_url}}"></image>
+  </view>
+  
+</template>

@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/courses/courses",
+    "pages/study/study",
+    "pages/mine/mine"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "酷丁鱼在线课堂",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "color":"#999",
+    "selectedColor": "#1afa56",
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "iconPath":"./assets/images/tabBar/icon-home.png",
+        "selectedIconPath":"./assets/images/tabBar/icon-home-selected.png"
+      },{
+        "pagePath":"pages/courses/courses",
+        "text":"课堂",
+        "iconPath":"./assets/images/tabBar/icon-course.png",
+        "selectedIconPath":"./assets/images/tabBar/icon-course-selected.png"
+      }, {
+        "pagePath":"pages/study/study",
+        "text":"学习",
+        "iconPath":"./assets/images/tabBar/icon-study.png",
+        "selectedIconPath":"./assets/images/tabBar/icon-study-selected.png"
+      }, {
+        "pagePath":"pages/mine/mine",
+        "text":"我的",
+        "iconPath":"./assets/images/tabBar/icon-mine.png",
+        "selectedIconPath":"./assets/images/tabBar/icon-mine-selected.png"
+      }
+      
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
