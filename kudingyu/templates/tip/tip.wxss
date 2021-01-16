@@ -2,9 +2,10 @@
   display:flex;
   align-items: center;
 }
-image{
+.tip-container image{
   width:40rpx;
   height:40rpx;
+  margin-left:20rpx;
 }
 .tip-container text{
   font-size:12px;

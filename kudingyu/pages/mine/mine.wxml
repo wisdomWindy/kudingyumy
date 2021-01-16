@@ -1,2 +1,19 @@
 <!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view class="mine-container">
+  <view class="avatar">
+    <image class="img" src="../../assets/images/头像 男孩.png" mode="cover"></image>
+    <text>酷酷</text>
+  </view>
+  <view class="outdate">
+    <view>
+      <text>VIP会员到期时间</text>
+      <text class="time">2021-01-04 17:33</text>
+    </view>
+  </view>
+  <view class="menu-list">
+    <block wx:for="{{settings}}" wx:key="index">
+      <menu item="{{item}}"></menu>
+    </block>
+  </view>
+
+</view>

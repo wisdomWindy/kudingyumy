@@ -1,2 +1,6 @@
 <!--pages/courses/courses.wxml-->
-<text>pages/courses/courses.wxml</text>
+<view class="courses-container">
+  <block wx:for="{{courses}}" wx:key="index">
+    <detail item="{{item}}"></detail>
+  </block>
+</view>

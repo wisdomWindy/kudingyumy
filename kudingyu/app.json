@@ -3,7 +3,8 @@
     "pages/index/index",
     "pages/courses/courses",
     "pages/study/study",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/bindMobile/bindMobile"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -13,7 +14,7 @@
   },
   "tabBar":{
     "color":"#999",
-    "selectedColor": "#1afa56",
+    "selectedColor": "#f94388",
     "list":[
       {
         "pagePath":"pages/index/index",
