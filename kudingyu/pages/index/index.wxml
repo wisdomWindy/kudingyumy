@@ -1,0 +1,29 @@
+<!--pages/home/home.wxml-->
+<import src="../../templates/tip/tip.wxml"></import>
+<import src="../../templates/more/more.wxml"></import>
+<import src="../../templates/course/course.wxml"></import>
+<view class="container">
+  <swiper indicator-dots
+        autoplay interval="{{3000}}" duration="{{2000}}" circular indicator-active-color="#fff">
+        <block wx:for="{{swipers}}" wx:key="index">
+          <swiper-item>     
+            <image src="../../assets{{item.img_url}}"></image>
+          </swiper-item>
+        </block>
+  </swiper>
+  
+  <view class="curses-wrapper">
+    <view class="curses-nav">
+      <template is="tip" data="{{...hotCurses}}"></template>
+      <template is="more" data="{{...more}}"></template>
+    </view>
+    <view class="curses-list">
+      <block wx:for="{{courses}}" wx:key="index">
+        <template is="course" data="{{...item}}"></template>
+      </block>
+    </view>
+  </view>
+    
+</view>
+ 
+

@@ -1,0 +1,41 @@
+/* pages/home/home.wxss */
+@import "../../templates/tip/tip.wxss";
+@import "../../templates/more/more.wxss";
+@import "../../templates/course/course.wxss";
+.container{
+  margin:0;
+  padding:0;
+  font-size:13px;
+  text-align:left;
+}
+swiper{
+  width:750rpx;
+  height:375rpx;
+}
+swiper swiper-item image{
+  width:750rpx;
+  height:375rpx;
+}
+.curses-nav{
+  display: flex;
+  justify-content: space-between;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+.curses-list{
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+}
+.color-blue{
+  background-color:skyblue;
+}
+.color-green{
+  background-color:green;
+}
+.color-orange{
+  background-color:orange;
+}
+.command-curses{
+  
+}

@@ -1,0 +1,12 @@
+.tip-container{
+  display:flex;
+  align-items: center;
+}
+image{
+  width:40rpx;
+  height:40rpx;
+}
+.tip-container text{
+  font-size:12px;
+  color:#999;
+}
