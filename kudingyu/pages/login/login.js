@@ -1,14 +1,32 @@
-// pages/study/study.js
-import study from "../../datas/study.js"
+// pages/login/login.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-study
+    region: ['广东省', '广州市', '海珠区'],
+    customItem: "全部"
   },
-
+formSubmit(){
+  wx.showLoading({
+    title: '提交中',
+    mask:true,
+    success:()=>{
+      setTimeout(() => {
+        wx.hideLoading();
+        wx.showToast({
+          title: 'success',
+          icon:"success",
+          duration:1000
+        })
+        wx.navigateTo({
+          url: '../../pages/index/index',
+        })
+      },1500);
+    }
+  })
+},
   /**
    * 生命周期函数--监听页面加载
    */

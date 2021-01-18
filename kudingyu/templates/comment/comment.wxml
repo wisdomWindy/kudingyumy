@@ -1,0 +1,10 @@
+<template name="comment">
+  <view class="comment-container">
+    <image src="../../assets{{icon}}"></image>
+    <view class="comment-right">
+      <view class="comment-name"><text>{{name}}</text></view>
+      <view class="comment-content"><text>{{info}}</text></view>
+    </view>
+    
+  </view>
+</template>

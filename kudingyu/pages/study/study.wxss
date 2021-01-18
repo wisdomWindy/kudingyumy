@@ -1,1 +1,2 @@
 /* pages/study/study.wxss */
+@import "../../templates//study/study.wxss";

@@ -1,10 +1,10 @@
 <!--components/detail/detail.wxml-->
-<view class="detail-container">
+<view class="detail-container" bindtap="getVideo" data-id="{{item}}">
   <image src="../../assets{{item.img_url}}"></image>
   <view class="titles">
     <view class="detail-title"><text>{{item.title}}</text></view>
     <view class="detail-subtitle"><text>{{item.subtitle}}</text></view>
   </view>
-  <button wx:if="{{item.isFull}}" class="mini-btn" type="primary" size="mini" style="background-color:#ccc">了解课程</button>
+  <button wx:if="{{item.isFull}}" class="mini-btn" type="primary" size="mini" style="background-color:#ccc">人数已满</button>
   <button wx:else class="mini-btn" type="primary" size="mini" style="background-color:#f94388">了解课程</button>
 </view>

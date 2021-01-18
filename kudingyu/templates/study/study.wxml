@@ -1,0 +1,10 @@
+<template name="studytemplate">
+  <view class="study-template-container">
+    <image src="../../assets{{src}}"></image>
+    <view class="right">
+      <view class="title"><text>{{title}}</text></view>
+    <view class="subtitle"><text>{{subtitle}}</text></view>
+    </view>
+    
+  </view>
+</template>

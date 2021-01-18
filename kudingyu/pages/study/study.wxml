@@ -1,2 +1,8 @@
 <!--pages/study/study.wxml-->
-<text>pages/study/study.wxml</text>
+<import src="../../templates/study/study.wxml"></import>
+<view class="study-container">
+  <block wx:for="{{study}}" wx:key="index">
+    <template is="studytemplate" data="{{...item}}"></template>
+  </block>
+  
+</view>

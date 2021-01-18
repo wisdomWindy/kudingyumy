@@ -1,0 +1,30 @@
+<!--pages/login/login.wxml-->
+<view class="login-container">
+  <view class="tips">
+    <view><text>请完善孩子的信息</text></view>
+    <view><text>以便为您提供更好的服务</text></view>
+  </view>
+  <form  bindsubmit="formSubmit">
+    <view class="name">
+        <text>姓名：</text><input class="weui-input" auto-focus placeholder="请输入姓名"/>
+    </view>
+    <view class="age">
+      <text>年龄：</text><input class="weui-input" auto-focus placeholder="请输入年龄"/>
+    </view>
+    <view class="gender">
+      <label for="">性别：</label>
+      <radio-group>
+        <radio value="r1" class="radio" />
+        <label for="">王子</label>
+        <radio value="r2" class="radio" />
+        <label class="radio">公主</label>
+      </radio-group>
+    </view>
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+      当前选择：{{region[0]}}，{{region[1]}}，{{region[2]}}
+    </view>
+  </picker>
+  </form>
+  <button type="primary" form-type="submit" class="submit">提交</button>
+</view>
