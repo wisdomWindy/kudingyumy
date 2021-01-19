@@ -8,7 +8,14 @@ Page({
     region: ['广东省', '广州市', '海珠区'],
     customItem: "全部"
   },
-formSubmit(){
+  bindRegionChange(e){
+    this.setData({
+      region:e.detail.value
+    });
+  },
+  /* 提交事件 */
+formSubmit(e){
+  console.log(e);
   wx.showLoading({
     title: '提交中',
     mask:true,
@@ -20,7 +27,7 @@ formSubmit(){
           icon:"success",
           duration:1000
         })
-        wx.navigateTo({
+        wx.switchTab({
           url: '../../pages/index/index',
         })
       },1500);

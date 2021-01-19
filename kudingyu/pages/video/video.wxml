@@ -41,7 +41,7 @@
       <text>{{desc}}</text>
     </view>
     <view class="navigate-content-3" hidden="{{activeIndex!=2}}">
-      <block wx:for="{{commentList}}" wx:key="*this">
+      <block wx:for="{{commentList}}" wx:key="index">
         <template is="comment" data="{{...item}}"></template>
       </block>
     </view>
