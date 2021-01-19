@@ -20,6 +20,8 @@
   background-color:#eee;
   padding-top:20rpx;
   padding-bottom:20rpx;
+  font-size:12px;
+
 }
 .mine-container .outdate view{
   background-color:#fff;
@@ -27,6 +29,7 @@
   line-height:100rpx;
   display:flex;
   justify-content: space-between;
+  padding:20rpx;
 }
 .mine-container .time{
   font-size:10px;

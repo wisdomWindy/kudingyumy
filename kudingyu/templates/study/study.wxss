@@ -1,0 +1,27 @@
+.study-template-container{
+  width:750rpx;
+  height:180rpx;
+  display: flex;
+  margin-left:20rpx;
+  border-bottom:1px solid #eee;
+  margin-top:40rpx;
+}
+.study-template-container image{
+  width:218rpx;
+  height:145rpx;
+}
+.study-template-container .right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height:145rpx;
+  margin-left:20rpx;
+}
+.study-template-container .right .title{
+  font-size:12px;
+}
+
+.study-template-container .right .subtitle{
+  font-size:10px;
+  color:green;
+}

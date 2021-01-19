@@ -1,0 +1,48 @@
+<!--pages/video/video.wxml-->
+<import src="../../templates/comment/comment.wxml"></import>
+<view class="video-container">
+  <!-- 视频 -->
+  <video 
+      id="{{id}}" 
+      src="{{src}}" 
+      show-center-play-btn
+      show-play-btn 
+      controls
+      picture-in-picture-mode="{{['push', 'pop']}}"
+    ></video>
+    <!-- 视频介绍 -->
+    <view class="lesson-info">
+      <view class="lesson-text">
+        <view class="title"><text>{{title}}</text></view>
+      <view class="info"><text>主讲:{{teacher}}</text> | <text>课时:{{movies.length*2}}</text> | <text>{{studyNumber}}次人观看</text></view>
+      </view>
+      <button class="mini-btn" type="primary" size="mini">关注</button>
+    </view>
+    <!-- tab栏 -->
+    <view class="navigate-bar">
+     <block wx:for="{{tabs}}" wx:key="index">
+       <view id="{{index}}" class="navigate-item {{activeIndex ==index? 'active-on':'' }}" bindtap="tabClick">
+          <text>{{item}}</text>
+       </view>
+     </block>
+    </view>
+    <!-- 列表 -->
+    <view class="navigate-content-1" hidden="{{activeIndex!=0}}">
+      <block wx:for="{{movies}}" wx:key="index">
+        <view class="content-item {{active==index?'active':''}}" id="{{index}}" bindtap="clickActive" >
+          <view class="subtitle">
+            <text>0{{index+1}}.{{item.subTitle}}</text>
+          </view>
+          <view class="time"><text>{{item.time}}</text></view>
+        </view>
+      </block>
+    </view>
+    <view class="navigate-content-2" hidden="{{activeIndex!=1}}">
+      <text>{{desc}}</text>
+    </view>
+    <view class="navigate-content-3" hidden="{{activeIndex!=2}}">
+      <block wx:for="{{commentList}}" wx:key="index">
+        <template is="comment" data="{{...item}}"></template>
+      </block>
+    </view>
+</view>

@@ -1,0 +1,59 @@
+/* pages/login/login.wxss */
+.login-container{
+  width:750rpx;
+  height:100vh;
+  background-color:#eee;
+  display: flow-root;
+}
+.login-container .tips{
+  text-align:center;
+  font-size:12px;
+  height:100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top:100rpx;
+  margin-bottom:100rpx;
+}
+.login-container form{
+  display: flow-root;
+  background-color:#fff;
+  width:auto;
+  height:auto;
+}
+.login-container form view{
+  margin-bottom:50rpx;
+  margin-left:50rpx;
+  color:#999;
+  font-size:12px;
+} 
+.login-container .name{
+  display: flex;
+  align-items: center;
+  margin-top:40rpx;
+}
+.login-container .weui-input{
+  border-bottom:1px solid #eee;
+}
+.login-container .age{
+  display: flex;
+  align-items: center;
+}
+.login-container .gender{
+  display: flex;
+  align-items: center;
+}
+.login-container .gender radio-group .radio{
+  width:60rpx;
+  height:60rpx;
+}
+.login-container .submitBtn{
+  background-color:#f94388;
+  text-align: center;
+  height:80rpx;
+  line-height:40rpx;
+  border-radius:40rpx;
+  margin-top:80rpx;
+  color:white;
+}

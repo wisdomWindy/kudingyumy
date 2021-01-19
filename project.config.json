@@ -35,54 +35,30 @@
   "compileType": "miniprogram",
   "libVersion": "2.14.4",
   "appid": "wxd1968efd41dd4ebf",
-  "projectname": "kudingyu",
+  "projectname": "miniprogram-1",
   "debugOptions": {
     "hidedInDevtools": []
   },
   "scripts": {},
   "isGameTourist": false,
   "condition": {
-    "plugin": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
       "list": []
     },
     "game": {
+      "list": []
+    },
+    "plugin": {
       "list": []
     },
     "gamePlugin": {
       "list": []
     },
     "miniprogram": {
-      "list": [
-        {
-          "name": "pages/courses/courses",
-          "pathName": "pages/courses/courses",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/mine/mine",
-          "pathName": "pages/mine/mine",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/bindMobile/bindMobile",
-          "pathName": "pages/bindMobile/bindMobile",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/study/study",
-          "pathName": "pages/study/study",
-          "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/video/video",
-          "pathName": "pages/video/video",
-          "scene": null
-        }
-      ]
+      "list": []
     }
   }
 }

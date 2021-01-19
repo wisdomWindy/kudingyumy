@@ -4,11 +4,13 @@
     "pages/courses/courses",
     "pages/study/study",
     "pages/mine/mine",
-    "pages/bindMobile/bindMobile"
+    "pages/bindMobile/bindMobile",
+    "pages/video/video",
+    "pages/login/login"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
+    "navigationBarBackgroundColor": "#f94388",
     "navigationBarTitleText": "酷丁鱼在线课堂",
     "navigationBarTextStyle":"black"
   },
@@ -23,7 +25,7 @@
         "selectedIconPath":"./assets/images/tabBar/icon-home-selected.png"
       },{
         "pagePath":"pages/courses/courses",
-        "text":"课堂",
+        "text":"课程",
         "iconPath":"./assets/images/tabBar/icon-course.png",
         "selectedIconPath":"./assets/images/tabBar/icon-course-selected.png"
       }, {

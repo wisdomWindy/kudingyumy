@@ -10,6 +10,9 @@ App({
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
+        wx.navigateTo({
+          url: '/pages/login/login',
+        })
       }
     })
     // 获取用户信息

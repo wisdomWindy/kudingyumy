@@ -18,6 +18,11 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    getVideo(e){
+      console.log(e)
+      wx.navigateTo({
+        url: '../../pages/video/video?id='+e.currentTarget.dataset.id.id+"&title="+e.currentTarget.dataset.id.title,
+      })
+    }
   }
 })
